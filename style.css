@@ -1,0 +1,20 @@
+@charset "utf-8";
+body {
+  margin: 0;
+}
+div {
+  width: 400px;
+  text-align: center;
+  margin: 16px auto;
+  border-radius: 16px;
+  background: lightblue;
+  padding: 8px;
+}
+h1 {
+  margin: 0;
+  color: bisque;
+}
+p {
+  margin: 0;
+  color: azure;
+}
