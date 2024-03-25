@@ -1,9 +1,10 @@
 @charset "utf-8";
 body {
   margin: 0;
+  background: azure;
 }
 div {
-  width: 400px;
+  width: 300px;
   text-align: center;
   margin: 16px auto;
   border-radius: 16px;
@@ -12,9 +13,15 @@ div {
 }
 h1 {
   margin: 0;
-  color: bisque;
+  color: white;
+  font-size: 28px;
 }
 p {
   margin: 0;
-  color: azure;
+  color: white;
+}
+@media (min-width: 600px) {
+  div {
+    width: 400px;
+  }
 }
