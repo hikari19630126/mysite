@@ -8,18 +8,66 @@ div {
   text-align: center;
   margin: 16px auto;
   border-radius: 16px;
-  background: lightblue;
+  background: rgb(151, 219, 241);
   padding: 8px;
 }
-h1 {
+div h1 {
   margin: 0;
   color: white;
   font-size: 28px;
 }
-p {
+div p {
   margin: 0;
   color: white;
 }
+main {
+  width: 240px;
+  margin: 32px auto;
+}
+
+section {
+  border: 4px double rgb(245, 73, 102);
+  text-align: center;
+  color: rgb(245, 73, 102);
+  border-radius: 20px;
+  height: 200px;
+}
+section h1 {
+  margin: 0;
+  border-bottom: 2px solid rgb(245, 73, 102);
+  font-weight: normal;
+  padding: 8px 0;
+}
+
+p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 24px 0;
+}
+button {
+  all: unset;
+  width: 100%;
+  background-color: rgb(245, 73, 102);
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  margin-top: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px #d6d3d3;
+}
+button:hover {
+  opacity: 0.8;
+}
+button:active{
+  box-shadow: 0 1px #838282;
+  transform: translateY(3px);
+}
+
+
+
+
 @media (min-width: 600px) {
   div {
     width: 400px;
